@@ -3,4 +3,8 @@ A kinda secure php login register system
 
 
 
-It isn't super secure, its some of my older code. It's something to learn from and improve. config.php has the db info, navbar.php is the navbar.
+Note: This doesnt promise to be super secure, its some of my older code but fixed up. I recommend you improve it. config.php has database information/a few variables/functions and navbar.php is the navbar
+
+
+Love you
+
