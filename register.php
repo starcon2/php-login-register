@@ -5,11 +5,17 @@ if ($loggedin == 0 ) {
 echo '
 <html><head></head>
 <body>
+<div class="container">
+<h1>Register</h1>
 <form action="registers.php" method="post">
-<input type="text" size="15" name="name" />
-<input type="text" size="15" name="password" />
-<input type="submit" value="submit" />
-</form></body>
+<input type="text" class="form-control" size="15" name="name" />
+<input type="text" class="form-control" size="15" name="password" />
+<p> </p>
+<input type="submit" class="btn btn-success" value="submit" />
+</form>
+</div>
+</body>
+
 </html>
 ';
 } else {

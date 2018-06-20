@@ -7,6 +7,6 @@ if  ( $loggedin == 0 )
  
  } else { 
 
- 	echo "Hello, $username";
+ 	echo "<center><h1>Hello, $username</h1></center>";
  }
  ?>
