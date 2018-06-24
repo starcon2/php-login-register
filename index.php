@@ -7,6 +7,32 @@ if  ( $loggedin == 0 )
  
  } else { 
 
- 	echo "<center><h1>Hello, $username</h1></center>";
+ 	echo "
+ 	<div class='container'>
+ 	<div class='jumbotron'>
+<h3>Welcome back, $username!</h3>
+				<br />
+							<div class='container'>
+							<h2>News</h2>
+							<h3>Site updated</h3>
+                             						</div>
+                             						</div>";
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  ?>

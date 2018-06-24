@@ -45,7 +45,7 @@ $stmt->bind_param("ss", $fusername, $phash);
 $stmt->execute();
 echo "Sucessfully Registered, you will be redirected to the login page.";
 sleep(8);
-header("Location: http://localhost/login.php");
+header("Location: /login.php");
 die();
 
 $stmt->close();

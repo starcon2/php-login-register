@@ -25,7 +25,7 @@ if ($loggedin == 0) {
 		$_SESSION['userSession'] = $row['username'];
 		 $_SESSION['loggedin'] = true;
           echo "worked";
-          header("Location: http://localhost/login.php");
+          header("Location: /index.php");
           die();
 
 	} else {
